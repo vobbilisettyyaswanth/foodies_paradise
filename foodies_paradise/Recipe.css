@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('recip book.jpg');
+    background-position:('center');
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    background: rgba(6, 189, 240, 0.9);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgb(82, 250, 96);
+    text-align: center;
+}
+
+.recipe-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.recipe-card {
+    border: 2px solid #5b03ff;
+    padding: 5px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+.recipe-card:hover {
+    transform: scale(0.9);
+}
+
+.recipe-card img {
+    max-width: 200%;
+    height: 100px;
+    border-radius: 5px;
+}
+
+.recipe-details {
+    display: none;
+    margin-top: 20px;
+}
+
+.recipe-details h2 {
+    color: #000000;
+}
+
+.recipe-details p {
+    color: #000000;
+}
+
+.back-btn {
+    margin-top: 10px;
+    cursor: pointer;
+    color: #090a0a;
+    text-decoration: underline;
+}

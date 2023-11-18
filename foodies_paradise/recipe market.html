@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width, initial-scale-1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Foodies</title>
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <script src="https://kit.fontawesome.com/d6a8ce8d77.js" crossorigin="anonymous"></script>
+        <script>function redirectToPaneer() {
+            // Redirect to your explore page or take any other action here
+            window.location.href = "Paneer.html";
+        }
+        function redirectToMushrooms() {
+            // Redirect to your explore page or take any other action here
+            window.location.href = "Mushroom.html";
+        }
+        function redirectToPotatoes() {
+            // Redirect to your explore page or take any other action here
+            window.location.href = "Potatoes.html";
+        }
+        function redirectToIceCream() {
+            // Redirect to your explore page or take any other action here
+            window.location.href = "IceCream.html";
+        }
+        function redirectToMilkShakes() {
+            // Redirect to your explore page or take any other action here
+            window.location.href = "MilkShake.html";
+        }
+        function redirectToCakes() {
+            // Redirect to your explore page or take any other action here
+            window.location.href = "Cakes.html";
+        }
+        function redirectToChicken() {
+            // Redirect to your explore page or take any other action here
+            window.location.href = "Chicken.html";
+        }
+        function redirectToMutton() {
+            // Redirect to your explore page or take any other action here
+            window.location.href = "Mutton.html";
+        }
+        function redirectToFish() {
+            // Redirect to your explore page or take any other action here
+            window.location.href = "Fish.html";
+        }
+        function redirectToSoyachunks() {
+            // Redirect to your explore page or take any other action here
+            window.location.href = "Soyachunks.html";
+        }
+        function redirectToBrinjals() {
+            // Redirect to your explore page or take any other action here
+            window.location.href = "Brinjals.html";
+        }
+        function redirectToCapcicum() {
+            // Redirect to your explore page or take any other action here
+            window.location.href = "Capcicum.html";
+        }
+        function redirectToCookies() {
+            // Redirect to your explore page or take any other action here
+            window.location.href = "Cookies.html";
+        }
+        function redirectToFruitSalads() {
+            // Redirect to your explore page or take any other action here
+            window.location.href = "FruitSalads.html";
+        }
+        function redirectToPies() {
+            // Redirect to your explore page or take any other action here
+            window.location.href = "Pies.html";
+        }
+        function redirectToEgg() {
+            // Redirect to your explore page or take any other action here
+            window.location.href = "Egg.html";
+        }
+        function redirectToCrabs() {
+            // Redirect to your explore page or take any other action here
+            window.location.href = "Crabs.html";
+        }
+        function redirectToPrawns() {
+            // Redirect to your explore page or take any other action here
+            window.location.href = "Prawns.html";
+        }
+
+        </script>
+<style>
+body{
+    margin: 0;
+    font-family: system-ui;
+    background-color: gainsboro;
+}
+.main{
+    background-image: url('https://source.unsplash.com/featured/?food');
+    height: max-content;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.page-title{
+    background: rgba(0,0, 0, 0.5);
+    text-align: center;
+    padding: 50px;
+    color: white ;
+    font-family: fantasy;
+    font-size: 100px;
+    letter-spacing: 10px;
+    font-variant: small-caps;
+}
+#sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.menu{
+    background: #184d47;
+    text-align: center;
+}
+.menu-ul{
+    padding: 0;
+    margin: 0;
+    display: inline;
+}
+.menu-ul li{
+    font-size: 17px;
+    display: inline-block;
+    list-style: none;
+    padding: 25px 25px 26px 25px;
+}
+.a-menu{
+    text-decoration: none;
+    color: yellow;
+}
+.menu-ul li:hover{
+    background: #5b8c5a;
+    transform:scale(1.1)
+}
+.search-box{
+    border: 1px solid white;
+    border-radius: 50px;
+    background: white;
+    width: max-content;
+    display: inline-block;
+    margin: 8px;
+}
+.search-box:hover{
+    box-shadow: 0 0 10px #04ff00;
+    border: 1px solid #5b8c5a;
+}
+.search-input{
+    width: 150px;
+    border: none;
+    font-size: 20px;
+    background: transparent;
+    outline: none;
+    margin: 1px 0 0 10px;
+}
+i{
+    font-size: 20px;
+    margin: 0 10px 0 0;
+}
+button{
+    background: transparent;
+    border: none;
+    outline: none;
+}
+.container,.deals-container{
+    margin: 50px 50px 50px 5%;
+    width: 90%;
+    text-align: center;
+}
+.categories,.items{
+    width: max-content;
+    margin: 25px;
+    display: inline-block;
+    border: 1px solid #184d47;
+    border-radius: 0 0 50px 50px;
+}
+.categories:hover,.items:hover{
+    box-shadow: 0 0 10px 10px #184d47;
+}
+.item-image{
+    height: 200px;
+    width: 200px;
+    border-radius: 0 0 50px 50px;
+    padding: 10px;
+}
+.image-title{
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+}
+.title{
+    padding: 50px;
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 10px;
+    color: orange;
+    background: rgba(0,0, 0, 0.5);
+}
+.images{
+    display: inline-block;
+}
+.item-image-size{
+    height: 20opx;
+    width: 300px;
+    padding: 5px;
+}
+.description{
+    margin: 20px;
+    min-height: 100px;
+}
+.item-select{
+    margin: 10px 0 0 0;
+}
+.opennow-btn{
+    border: 1px solid #184d47;
+    border-radius: 20px;
+    background: #184d47;
+    color: white;
+    font-weight: bold;
+    padding: 5px 15px;
+    margin-top: 10px;
+}
+.opennow-btn:hover{
+    border: 1px solid #5b8c5a;
+    box-shadow: 0 0 10px 5px #04fa00 inset;
+}
+footer{
+    
+    padding-top: 0;
+    margin-top: 11%;
+    font-family: cursive;
+    text-align: center;
+    background-size: contain;
+}
+footer a{
+    text-decoration: none;
+    color:black;
+}
+</style>
+    </head>
+    <body>
+        <div class="main">
+            <div class="page-title">Foodie's Paradise</div>
+            <div class="menu" id="sticky">
+                <ul class="menu-ul">
+                    <a href="#" class="a-menu"><li>Home</li></a>
+                    <a href="#vegetarian" class="a-menu"><li>Vegetarian</li></a>
+                    <a href="#desserts" class="a-menu"><li>Desserts</li></a>
+                    <a href="#non-vegetarian" class="a-menu"><li>Non-Vegetarian</li></a>
+                    <a href="su.php" class="a-menu"><li>Suggestion</li></a>
+                    <a href="contact.html" class="a-menu"><li>Contact us</li></a>
+                    <a href="ganesh.html" class="a-menu"><li>Back</li></a>
+                </ul>
+            </div>
+        </div>
+       
+        <!--            Vegetarian          -->
+
+        <div class="deals-container" id="vegetarian">
+            <div class="main">
+                <div class="title">VEGETARIAN</div>
+            </div>
+            <div class="items">
+                <div class="images">
+                    <img src="https://vijaymilk.com/wp-content/uploads/2018/09/tofu.jpg" alt="" class="item-image-size">
+                </div>
+                <div class="description">
+                    <b>Paneer</b><br>
+                   
+                    <button class="opennow-btn" onclick="redirectToPaneer()">Open Now</button>
+                </div>
+            </div>
+            <div class="items">
+                <div class="images">
+                    <img src="https://th.bing.com/th/id/OIP.Bx-H4428_PlqGY8wRhntnwHaE8?w=267&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="" class="item-image-size">
+                </div>
+                <div class="description">
+                    <b>Mushrooms</b><br>
+                   
+                    <button class="opennow-btn" onclick="redirectToMushrooms()">Open Now</button>
+                </div>
+            </div>
+            <div class="items">
+                <div class="images">
+                    <img src="https://th.bing.com/th/id/OIP.C_pXDa1_rEdpR8B871WK6wHaEK?w=282&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="" class="item-image-size">
+                </div>
+                <div class="description">
+                    <b>Potatoes</b><br>
+                    
+                    <button class="opennow-btn" onclick="redirectToPotatoes()">Open Now</button>
+                </div>
+            </div>
+            <div class="items">
+                <div class="images">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYvsq-huuhMy1UWDRxsWMXqf6wwW1Lt58y6g&usqp=CAU" alt="" class="item-image-size">
+                </div>
+                <div class="description">
+                    <b>Soyachunks</b><br>
+                    
+                    <button class="opennow-btn" onclick="redirectToSoyachunks()">Open Now</button>
+                </div>
+            </div>
+            <div class="items">
+                <div class="images">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzLHsebPEhrP7kDJXgFbTc8LKYnQidpd7w-A&usqp=CAU" alt="" class="item-image-size">
+                </div>
+                <div class="description">
+                    <b>Brinjals</b><br>
+                    
+                    <button class="opennow-btn" onclick="redirectToBrinjals()">Open Now</button>
+                </div>
+            </div>
+            <div class="items">
+                <div class="images">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROIfMzHkBnBhEW3fHZ195OMV8P8lCyaf7p_Q&usqp=CAU" alt="" class="item-image-size">
+                </div>
+                <div class="description">
+                    <b>Capcicum</b><br>
+                    
+                    <button class="opennow-btn" onclick="redirectToCapcicum()">Open Now</button>
+                </div>
+            </div>
+        </div>
+
+<!--                Desserts              -->
+
+<div class="deals-container" id="desserts">
+    <div class="main">
+        <div class="title">DESSERTS</div>
+    </div>
+    <div class="items">
+        <div class="images">
+            <img src="https://th.bing.com/th/id/OIP.Hi6vrN45xmS_3IoEYrKeWwHaE8?w=281&h=187&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="" class="item-image-size">
+        </div>
+        <div class="description">
+            <b>Cakes</b><br>
+           
+            <button class="opennow-btn" onclick="redirectToCakes()">Open Now</button>
+        </div>
+    </div>
+    <div class="items">
+        <div class="images">
+            <img src="https://th.bing.com/th/id/OIP.s3OnbIqgScwGEEucpgKP9gHaEo?w=265&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="" class="item-image-size">
+        </div>
+        <div class="description">
+            <b>IceCream</b><br>
+           
+            <button class="opennow-btn" onclick="redirectToIceCream()">Open Now</button>
+        </div>
+    </div>
+    <div class="items">
+        <div class="images">
+            <img src="https://th.bing.com/th/id/OIP.ZZFYShh9pHuNN1AoY1_msgHaE8?w=208&h=139&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="" class="item-image-size">
+        </div>
+        <div class="description">
+            <b>MilkShakes</b><br>
+            <button class="opennow-btn" onclick="redirectToMilkShakes()">Open Now</button>
+        </div>
+    </div>
+    <div class="items">
+        <div class="images">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZf2Q06T3ty_SDMbzb9YufoblA12cQVnz2Dg&usqp=CAU" alt="" class="item-image-size">
+        </div>
+        <div class="description">
+            <b>Cookies</b><br>
+            
+            <button class="opennow-btn" onclick="redirectToCookies()">Open Now</button>
+        </div>
+    </div>
+    <div class="items">
+        <div class="images">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREOGrbxWiYBOmEwd4FPX5Bbo3cQqnpNyIqHA&usqp=CAU" alt="" class="item-image-size">
+        </div>
+        <div class="description">
+            <b>FruitSalads</b><br>
+            
+            <button class="opennow-btn" onclick="redirectToFruitSalads()">Open Now</button>
+        </div>
+    </div>
+    <div class="items">
+        <div class="images">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSB99DDLhCXXGxxAfWwsoqdp-tEgdr8ZlBwQg&usqp=CAU" alt="" class="item-image-size">
+        </div>
+        <div class="description">
+            <b>Pies</b><br>
+            
+            <button class="opennow-btn" onclick="redirectToPies()">Open Now</button>
+        </div>
+    </div>
+</div>
+
+<!--          Non-Vegetarian                 -->
+
+<div class="deals-container" id="non-vegetarian">
+    <div class="main">
+        <div class="title">NON-VEGETARIAN</div>
+    </div>
+    <div class="items">
+        <div class="images">
+            <img src="https://th.bing.com/th/id/OIP.Y_GecyOxdtRVKPBtoII8oAHaE8?w=242&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7">
+        </div>
+        <div class="description">
+            <b>Chicken</b><br>
+           
+            <button class="opennow-btn" onclick="redirectToChicken()">Open Now</button>
+        </div>
+    </div>
+    <div class="items">
+        <div class="images">
+            <img src="https://th.bing.com/th/id/OIP.Puyc75za5xzgMyfel2wt5gHaE8?w=259&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="" class="item-image-size">
+        </div>
+        <div class="description">
+            <b>Mutton</b><br>
+           
+            <button class="opennow-btn" onclick="redirectToMutton()">Open Now</button>
+        </div>
+    </div>
+    <div class="items">
+        <div class="images">
+            <img src="https://healthyvalve.com/media/2020/02/2582-scaled.jpg" alt="" class="item-image-size">
+        </div>
+        <div class="description">
+            <b>Fish</b><br>
+            
+            <button class="opennow-btn" onclick="redirectToFish()">Open Now</button>
+        </div>
+    </div>
+    <div class="items">
+        <div class="images">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRURvd4SHk9A-m_a2DABq5lQ8TWEZhoj4a_Dw&usqp=CAU" alt="" class="item-image-size">
+        </div>
+        <div class="description">
+            <b>Egg</b><br>
+            
+            <button class="opennow-btn" onclick="redirectToEgg()">Open Now</button>
+        </div>
+    </div>
+    <div class="items">
+        <div class="images">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQq9f7gyh4Ak47hKTMLXlJhhNqP7XjcWoS9MLhjecdEq8a0XJ5LgJsC9b65uuxf8mxIDLk&usqp=CAU" alt="" class="item-image-size">
+        </div>
+        <div class="description">
+            <b>Crabs</b><br>
+            
+            <button class="opennow-btn" onclick="redirectToCrabs()">Open Now</button>
+        </div>
+    </div>
+    <div class="items">
+        <div class="images">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSL4oUoIfkgrHwe7C55hDnqfL4fUpQacaImXZpmXl-83BIdvkfCTU3Djs0PU8q-Mwt8QeU&usqp=CAU" alt="" class="item-image-size">
+        </div>
+        <div class="description">
+            <b>Prawns</b><br>
+            
+            <button class="opennow-btn" onclick="redirectToPrawns()">Open Now</button>
+        </div>
+    </div>
+    </body>
+</html>
